@@ -1,0 +1,123 @@
+3+4
+7
+10%3
+1
+var name="tom"
+undefined
+name
+"tom"
+name.length()
+VM160:1 Uncaught TypeError: name.length is not a function
+    at <anonymous>:1:6
+(anonymous) @ VM160:1
+name.length
+3
+name.toUpperCase()
+"TOM"
+name.toLowerCase
+ƒ toLowerCase() { [native code] }
+name.toLowerCase()
+"tom"
+"hallo"+" welcome"
+"hallo welcome"
+"hallo"+40
+"hallo40"
+2===3
+false
+2>3
+false
+if(){}
+VM554:1 Uncaught SyntaxError: Unexpected token ')'
+if(){}
+VM577:1 Uncaught SyntaxError: Unexpected token ')'
+if(3>2){console.log("true")}else{consloe.log("false")}
+VM710:1 true
+undefined
+if(1>2){console.log("true")}else{consloe.log("false")}
+VM722:1 Uncaught ReferenceError: consloe is not defined
+    at <anonymous>:1:34
+(anonymous) @ VM722:1
+if(1>2){console.log("true")}else{console.log("false")}
+VM737:1 false
+undefined
+for(var i=0;i<=5;i++){console.log(i)}
+VM829:1 0
+VM829:1 1
+VM829:1 2
+VM829:1 3
+VM829:1 4
+VM829:1 5
+undefined
+for(var i=1;i<=30;i=i+2){console.log(i)}
+VM854:1 1
+VM854:1 3
+VM854:1 5
+VM854:1 7
+VM854:1 9
+VM854:1 11
+VM854:1 13
+VM854:1 15
+VM854:1 17
+VM854:1 19
+VM854:1 21
+VM854:1 23
+VM854:1 25
+VM854:1 27
+VM854:1 29
+undefined
+for(var i=1;i<=30;i=i+1){console.log(i)}
+VM865:1 1
+VM865:1 2
+VM865:1 3
+VM865:1 4
+VM865:1 5
+VM865:1 6
+VM865:1 7
+VM865:1 8
+VM865:1 9
+VM865:1 10
+VM865:1 11
+VM865:1 12
+VM865:1 13
+VM865:1 14
+VM865:1 15
+VM865:1 16
+VM865:1 17
+VM865:1 18
+VM865:1 19
+VM865:1 20
+VM865:1 21
+VM865:1 22
+VM865:1 23
+VM865:1 24
+VM865:1 25
+VM865:1 26
+VM865:1 27
+VM865:1 28
+VM865:1 29
+VM865:1 30
+undefined
+var jerry=[2,"hai",40]
+undefined
+console.log(jerry)
+VM968:1 (3) [2, "hai", 40]0: 21: "hai"2: 40length: 3[[Prototype]]: Array(0)at: ƒ at()arguments: (...)caller: (...)length: 1name: "at"[[Prototype]]: ƒ ()apply: ƒ apply()arguments: (...)caller: (...)length: 2name: "apply"[[Prototype]]: ƒ ()apply: ƒ apply()arguments: (...)caller: (...)length: 2name: "apply"[[Prototype]]: ƒ ()apply: ƒ apply()arguments: (...)caller: (...)length: 2name: "apply"[[Prototype]]: ƒ ()[[Scopes]]: Scopes[0]arguments: (...)bind: ƒ bind()call: ƒ call()caller: (...)constructor: ƒ Function()length: 0name: ""toString: ƒ toString()Symbol(Symbol.hasInstance): ƒ [Symbol.hasInstance]()get arguments: ƒ ()set arguments: ƒ ()get caller: ƒ ()set caller: ƒ ()[[FunctionLocation]]: ​[[Prototype]]: Object[[Scopes]]: Scopes[0][[Scopes]]: Scopes[0]arguments: (...)bind: ƒ bind()call: ƒ call()caller: (...)constructor: ƒ Function()length: 0name: ""toString: ƒ toString()Symbol(Symbol.hasInstance): ƒ [Symbol.hasInstance]()get arguments: ƒ ()set arguments: ƒ ()get caller: ƒ ()set caller: ƒ ()[[FunctionLocation]]: ​[[Prototype]]: Object[[Scopes]]: Scopes[0][[Scopes]]: Scopes[0]arguments: (...)bind: ƒ bind()call: ƒ call()caller: (...)constructor: ƒ Function()length: 0name: ""toString: ƒ toString()Symbol(Symbol.hasInstance): ƒ [Symbol.hasInstance]()get arguments: ƒ ()set arguments: ƒ ()get caller: ƒ ()set caller: ƒ ()[[FunctionLocation]]: ​[[Prototype]]: Object[[Scopes]]: Scopes[0][[Scopes]]: Scopes[0]concat: ƒ concat()constructor: ƒ Array()copyWithin: ƒ copyWithin()entries: ƒ entries()every: ƒ every()fill: ƒ fill()filter: ƒ filter()find: ƒ find()findIndex: ƒ findIndex()flat: ƒ flat()flatMap: ƒ flatMap()forEach: ƒ forEach()includes: ƒ includes()indexOf: ƒ indexOf()join: ƒ join()keys: ƒ keys()lastIndexOf: ƒ lastIndexOf()length: 0map: ƒ map()pop: ƒ pop()push: ƒ push()reduce: ƒ reduce()reduceRight: ƒ reduceRight()reverse: ƒ reverse()shift: ƒ shift()slice: ƒ slice()some: ƒ some()sort: ƒ sort()splice: ƒ splice()toLocaleString: ƒ toLocaleString()toString: ƒ toString()unshift: ƒ unshift()values: ƒ values()Symbol(Symbol.iterator): ƒ values()Symbol(Symbol.unscopables): {copyWithin: true, entries: true, fill: true, find: true, findIndex: true, …}[[Prototype]]: Object
+undefined
+console.log(jerry[1])
+VM1073:1 hai
+undefined
+jerry.push(25)
+4
+console.log(jerry)
+VM1196:1 (4) [2, "hai", 40, 25]
+undefined
+jerry.pop()
+25
+jerry.pop()
+40
+console.log(jerry)
+VM1305:1 (2) [2, "hai"]
+undefined
+function circumference(radius){var circum=2*3.14*radius;return circum}
+undefined
+circumference(74)
+464.72
